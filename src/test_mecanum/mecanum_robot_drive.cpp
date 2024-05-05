@@ -19,8 +19,8 @@ PID pids[NUM_MOTORS] = { {Kp, Ki, Kd, 0, pidTau, false}, {Kp, Ki, Kd, 0, pidTau,
                          {Kp, Ki, Kd, 0, pidTau, false}, {Kp, Ki, Kd, 0, pidTau, false} };
 
 // x, y, phi
-double motor_poses[NUM_MOTORS][3] = { {-0.144, -0.116, -PI/4}, {-0.144,  0.116, PI/4},
-                                      { 0.140,  0.048, PI*3/4}, { 0.140, -0.048, -PI*3/4} };
+double motor_poses[NUM_MOTORS][3] = { { 0.144,  0.116, PI*3/4}, { 0.144, -0.116, -PI*3/4},
+                                      {-0.140, -0.048, -PI/4}, {-0.140,  0.048, PI/4} };
 
 // r, theta
 double motor_position_vectors[NUM_MOTORS][2] = {{sqrt(pow(motor_poses[0][0], 2) + pow(motor_poses[0][1], 2)), atan2(motor_poses[0][1], motor_poses[0][0])}, 

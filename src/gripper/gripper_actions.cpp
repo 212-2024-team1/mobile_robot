@@ -21,7 +21,7 @@ extern GripperMessage gripperMessage;
 extern GripperControllerMessage gripperControllerMessage;
 
 int magnet_state = 0;
-int gripper_state = 1;
+int gripper_state = 0;
 int old_magnet_state = 0;
 int old_gripper_state = 1;
 

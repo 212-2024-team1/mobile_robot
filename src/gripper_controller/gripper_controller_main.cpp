@@ -14,7 +14,7 @@ Bounce bounce3 = Bounce(); // INSTANTIATE A Bounce OBJECT
 Bounce bounce4 = Bounce(); // INSTANTIATE A Bounce OBJECT
 
 int magnet_command = 0;
-int gripper_command = 1;
+int gripper_command = 0;
 
 void setup() {
     Serial.begin(115200);

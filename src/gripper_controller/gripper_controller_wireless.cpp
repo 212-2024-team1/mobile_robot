@@ -21,7 +21,7 @@ void onSendData(const uint8_t *mac_addr, esp_now_send_status_t status) {
 			gripperControllerMessage.print();
 		#endif
     } else {
-      	Serial.println("Failed");
+      	Serial.println("Gripper Controller Wireless Failed");
     }
 }
 
